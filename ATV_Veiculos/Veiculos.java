@@ -59,4 +59,7 @@ public class Veiculos {
     public boolean isLigado() {
         return ligado;
     }
+    public void mover(){
+        System.out.println("O veículo está se movendo");
+    }
 }

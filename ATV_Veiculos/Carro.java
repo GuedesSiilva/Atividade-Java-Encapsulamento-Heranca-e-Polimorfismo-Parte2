@@ -20,4 +20,9 @@ public class Carro extends Veiculos {
     public int getQuantidadePortas() {
         return quantidadePortas;
     }
+
+    @Override
+    public void mover() {
+        System.out.println("O carro está se movendo");
+    }
 }

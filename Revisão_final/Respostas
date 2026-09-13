@@ -1,0 +1,42 @@
+Complete as frases
+
+1 Encapsulamento serve para "proteger e controlar os dados de uma classe".
+
+2 O modificador private "faz com que o atributo não seja acessado diretamente fora da classe".
+
+3 Um construtor é executado quando "um objeto da classe é criado".
+
+4 A palavra this representa "uma referência ao próprio atributo da classe".
+
+5 A palavra extends é utilizada para "fazer a referencia a uma superclasse,gerando herança".
+
+6 A chamada super(...) "chama atributos de uma superclasse para uma subclasse" .
+
+7 A anotação @Override indica "que você está sobrescrevendo um método".
+
+8 Polimorfismo permite "utilizar uma referência de tipo geral para objetos específicos" .
+
+Analise o código
+
+    Veiculo veiculo = new Carro("Ford", "Ka", 4);
+    veiculo.mover();
+
+1 Qual é o tipo da variável veiculo?
+- A variavel é do tipo da superclasse Veiculo;
+
+2 Qual é o tipo do objeto criado?
+- Está sendo criado um objeto do tipo Carro
+
+3 Qual implementação de mover() será executada?
+- A que está sobrescrita na subclasse Carro
+
+4 Onde aparece a herança?
+- A herança aparece na relação entre Carro e Veiculo, quando Carro utiliza extends Veiculo
+
+5 Onde aparece o polimorfismo?
+- O polimorfismo aparece quando uma referência do tipo Veiculo (veiculo)
+ aponta para um objeto do tipo Carro e, ao chamar mover(), é executada a versão sobrescrita em Carro
+
+6 Quais atributos devem permanecer encapsulados?
+- Os atributos como nome e modelo devem permanecer encapsulados,
+utilizando private e, quando necessário, métodos get e set para controlar o acesso.

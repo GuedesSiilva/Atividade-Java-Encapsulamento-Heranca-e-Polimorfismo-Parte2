@@ -16,4 +16,8 @@ public class Moto extends Veiculos {
     public int getCilindradas() {
         return cilindradas;
     }
+    @Override
+    public void mover() {
+        System.out.println("A moto está se movendo");
+    }
 }
